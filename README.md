@@ -6,8 +6,8 @@ Simple Flask App
 pip3 install -r requirements.txt
 ````
 
-## Run
+## Run local
 ```shell
 export FLASK_APP=main
-flask run --host=0.0.0.0
+flask run
 ```
