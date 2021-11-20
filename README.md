@@ -11,3 +11,8 @@ pip3 install -r requirements.txt
 export FLASK_APP=main
 flask run
 ```
+
+## Create docker image
+````shell
+docker build -t aos-flask:latest .
+````
