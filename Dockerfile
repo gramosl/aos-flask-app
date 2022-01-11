@@ -3,13 +3,11 @@ FROM python:3.8
 RUN apt-get update -y && \
     apt-get install -y python3-pip python-dev
 
-COPY ./requirements.txt /app/requirements.txt
+COPY . /app
 
 WORKDIR /app
 
 RUN pip install -r requirements.txt
-
-COPY . /app
 
 EXPOSE 8082
 
